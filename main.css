@@ -1,0 +1,81 @@
+.box1{
+width: 200px;
+height: 200px;
+background-color: red;
+animation-name:animatsiya ;
+animation-iteration-count: infinite;
+animation-duration: 6s;
+position: absolute;
+top: 0;
+left: 0;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name:animatsiya ;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+    .box3{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        animation-name:animatsiya ;
+        animation-iteration-count: infinite;
+        animation-duration: 10s;
+        position: absolute;
+        top: 0;
+        left: 0;
+        }
+        
+.box4{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            animation-name:animatsiya ;
+            animation-iteration-count: infinite;
+            animation-duration: 12s;
+            position: absolute;
+            top: 0;
+            left: 0;
+            }
+@keyframes animatsiya {
+    0%{
+        background-color: blueviolet;
+        border-radius: 5px;
+        transform: rotate(0deg);
+        left: 0;
+        top: 0;
+    }
+    25%{
+        background-color: red;
+        transform: rotate(45deg);
+        left: 80%;
+        top: 0;
+    }
+    50%{
+        background-color: blue;
+        transform: rotate(90deg);
+        left: 80%;
+        top: 520px;
+
+    }
+    75%{
+        background-color: brown;
+        transform: rotate(180deg);
+        left: -0px;
+        top: 520px;
+    }
+    100%{
+        background-color: blueviolet;
+        border-radius: 5px;
+        transform: rotate(360deg);
+        left: 0;
+        top: 0;
+    }
+
+}
